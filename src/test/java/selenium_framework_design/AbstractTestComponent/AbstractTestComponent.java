@@ -26,7 +26,7 @@ public class AbstractTestComponent {
 	public WebDriver driver;
 	
 	public WebDriver initializeDriver() throws IOException {
-		
+		//comment by milan
 		Properties p = new Properties();
 		FileReader reader = new FileReader(System.getProperty("user.dir")+"//src//main//java//global.properties");
 		p.load(reader);
