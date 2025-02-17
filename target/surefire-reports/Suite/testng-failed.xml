@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="selenium_framework_design.AbstractTestComponent.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Login Error Validations(failed)" verbose="0">
+    <classes>
+      <class name="selenuim_framework_design.LoginErrorValidation">
+        <methods>
+          <include name="loginErrorValidation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- selenuim_framework_design.LoginErrorValidation -->
+    </classes>
+  </test> <!-- Login Error Validations(failed) -->
+</suite> <!-- Failed suite [Suite] -->
